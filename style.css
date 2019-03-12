@@ -1,0 +1,31 @@
+body {margin: 0px}
+
+h1 { display: flex;
+	align-content: flex-end;
+	justify-content: center;
+	font-family: "Times New Romans";
+	border-bottom: 2px solid blue;
+	color: blue; }
+
+
+.container { display: flex;
+	align-content: flex-end;
+	justify-content: center;
+	 }
+
+	 img {
+	width: 500px;
+	height:350px;
+	margin: 10px;
+	transition: all 1s;
+	}
+
+	img:hover {
+	transform: scale(1.1);
+}
+
+.boton {
+	display: flex;
+	justify-content: center;
+}
+
